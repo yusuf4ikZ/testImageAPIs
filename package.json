@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.19.3",
+    "@google-cloud/vision": "^2.4.2",
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "googleapis": "^100.0.0",
+    "object-detection": "^0.0.3",
+    "request-promise": "^4.2.6"
+  }
+}
